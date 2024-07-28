@@ -1,0 +1,323 @@
+{
+  "levels": [
+    {
+      "characters": [
+        {
+          "column": 2,
+          "hitpoints": 70,
+          "row": 2,
+          "stamina": 10,
+          "strength": 10,
+          "type": "static"
+        },
+        {
+          "column": 1,
+          "currentIndex": 0,
+          "hitpoints": 70,
+          "path": "xxxxwww",
+          "row": 5,
+          "stamina": 10,
+          "strength": 10,
+          "type": "dynamic"
+        },
+        {
+          "column": 8,
+          "hitpoints": 45,
+          "row": 1,
+          "stamina": 5,
+          "strength": 10,
+          "type": "attack"
+        },
+        {
+          "column": 2,
+          "hitpoints": 45,
+          "row": 7,
+          "stamina": 5,
+          "strength": 10,
+          "type": "attack"
+        }
+      ],
+      "columns": 10,
+      "rows": 10,
+      "spawnColumn": 4,
+      "spawnRow": 2,
+      "specialTiles": [
+        {
+          "column": 1,
+          "destinationColumn": 7,
+          "destinationRow": 8,
+          "row": 2,
+          "type": "portal"
+        },
+        {
+          "column": 8,
+          "destinationColumn": 5,
+          "destinationRow": 5,
+          "row": 2,
+          "type": "portal"
+        },
+        {
+          "column": 3,
+          "row": 3,
+          "type": "lootChest"
+        },
+        {
+          "column": 6,
+          "row": 3,
+          "type": "pit"
+        },
+        {
+          "column": 7,
+          "row": 3,
+          "type": "ramp"
+        },
+        {
+          "column": 8,
+          "row": 3,
+          "type": "pit"
+        },
+        {
+          "column": 1,
+          "row": 4,
+          "type": "wall"
+        },
+        {
+          "column": 2,
+          "row": 4,
+          "type": "wall"
+        },
+        {
+          "column": 3,
+          "row": 4,
+          "type": "wall"
+        },
+        {
+          "column": 4,
+          "row": 4,
+          "type": "wall"
+        },
+        {
+          "column": 6,
+          "row": 4,
+          "type": "pit"
+        },
+        {
+          "column": 4,
+          "isOpen": false,
+          "row": 7,
+          "switchColumn": 7,
+          "switchRow": 4,
+          "type": "door"
+        },
+        {
+          "column": 8,
+          "row": 4,
+          "type": "pit"
+        },
+        {
+          "column": 4,
+          "row": 5,
+          "type": "wall"
+        },
+        {
+          "column": 5,
+          "destinationColumn": 8,
+          "destinationRow": 2,
+          "row": 5,
+          "type": "portal"
+        },
+        {
+          "column": 6,
+          "row": 5,
+          "type": "pit"
+        },
+        {
+          "column": 8,
+          "row": 5,
+          "type": "pit"
+        },
+        {
+          "column": 4,
+          "row": 6,
+          "type": "wall"
+        },
+        {
+          "column": 6,
+          "row": 6,
+          "type": "pit"
+        },
+        {
+          "column": 7,
+          "row": 6,
+          "type": "ramp"
+        },
+        {
+          "column": 8,
+          "row": 6,
+          "type": "pit"
+        },
+        {
+          "column": 1,
+          "row": 7,
+          "type": "levelChanger"
+        },
+        {
+          "column": 4,
+          "row": 8,
+          "type": "wall"
+        },
+        {
+          "column": 7,
+          "destinationColumn": 1,
+          "destinationRow": 2,
+          "row": 8,
+          "type": "portal"
+        }
+      ]
+    },
+    {
+      "characters": [
+        {
+          "column": 7,
+          "currentIndex": 0,
+          "hitpoints": 70,
+          "path": "wasd",
+          "row": 2,
+          "stamina": 10,
+          "strength": 10,
+          "type": "dynamic"
+        },
+        {
+          "column": 3,
+          "hitpoints": 70,
+          "row": 6,
+          "stamina": 10,
+          "strength": 10,
+          "type": "static"
+        },
+        {
+          "column": 7,
+          "hitpoints": 45,
+          "row": 7,
+          "stamina": 5,
+          "strength": 10,
+          "type": "attack"
+        }
+      ],
+      "columns": 9,
+      "rows": 9,
+      "spawnColumn": 4,
+      "spawnRow": 1,
+      "specialTiles": [
+        {
+          "column": 3,
+          "destinationColumn": 1,
+          "destinationRow": 6,
+          "row": 1,
+          "type": "portal"
+        },
+        {
+          "column": 3,
+          "row": 2,
+          "type": "ramp"
+        },
+        {
+          "column": 2,
+          "row": 3,
+          "type": "pit"
+        },
+        {
+          "column": 3,
+          "row": 3,
+          "type": "pit"
+        },
+        {
+          "column": 4,
+          "row": 3,
+          "type": "pit"
+        },
+        {
+          "column": 2,
+          "row": 4,
+          "type": "pit"
+        },
+        {
+          "column": 3,
+          "row": 4,
+          "type": "pit"
+        },
+        {
+          "column": 4,
+          "row": 4,
+          "type": "pit"
+        },
+        {
+          "column": 6,
+          "row": 4,
+          "type": "wall"
+        },
+        {
+          "column": 7,
+          "row": 4,
+          "type": "wall"
+        },
+        {
+          "column": 1,
+          "row": 5,
+          "type": "wall"
+        },
+        {
+          "column": 2,
+          "row": 5,
+          "type": "wall"
+        },
+        {
+          "column": 3,
+          "row": 5,
+          "type": "wall"
+        },
+        {
+          "column": 4,
+          "row": 5,
+          "type": "wall"
+        },
+        {
+          "column": 6,
+          "row": 5,
+          "type": "wall"
+        },
+        {
+          "column": 7,
+          "row": 5,
+          "type": "levelChanger"
+        },
+        {
+          "column": 1,
+          "destinationColumn": 3,
+          "destinationRow": 1,
+          "row": 6,
+          "type": "portal"
+        },
+        {
+          "column": 5,
+          "isOpen": false,
+          "row": 5,
+          "switchColumn": 4,
+          "switchRow": 7,
+          "type": "door"
+        }
+      ]
+    }
+  ],
+  "mainCharacter": {
+    "column": 5,
+    "hitpoints": 120,
+    "row": 3,
+    "stamina": 20,
+    "strength": 20
+  },
+  "meta": {
+    "info": "this file is created by DungeonCrawler",
+    "validSave": true
+  }
+}

@@ -1,0 +1,328 @@
+{
+    "meta": {
+        "info": "this file is created by Felix Scheib",
+        "validSave": true  
+    }, 
+
+    "mainCharacter": {
+        "row": 3,
+        "column": 5,
+        "stamina": 20,
+        "strength": 20,
+        "hitpoints": 120
+    },
+
+    "levels" : [
+        {
+            "rows": 10,
+            "columns": 10,
+            "spawnRow": 2,
+            "spawnColumn": 4,
+            
+            "specialTiles": [
+                {
+                    "type" : "wall",
+                    "row" : 4,
+                    "column": 1    
+                },
+                {
+                    "type" : "wall",
+                    "row" : 4,
+                    "column": 2    
+                },
+                {
+                    "type" : "wall",
+                    "row" : 4,
+                    "column": 3    
+                },
+                {
+                    "type" : "wall",
+                    "row" : 4,
+                    "column": 4    
+                },
+                {
+                    "type" : "wall",
+                    "row" : 5,
+                    "column": 4    
+                },
+                {
+                    "type" : "wall",
+                    "row" : 6,
+                    "column": 4    
+                },
+                {
+                    "type" : "wall",
+                    "row" : 8,
+                    "column": 4    
+                },
+                {
+                    "type" : "pit",
+                    "row" : 3,
+                    "column": 6    
+                },
+                {
+                    "type" : "pit",
+                    "row" : 3,
+                    "column": 8    
+                },
+                {
+                    "type" : "pit",
+                    "row" : 4,
+                    "column": 8    
+                },
+                {
+                    "type" : "pit",
+                    "row" : 5,
+                    "column": 8    
+                },
+                {
+                    "type" : "pit",
+                    "row" : 6,
+                    "column": 8    
+                },
+                {
+                    "type" : "pit",
+                    "row" : 6,
+                    "column": 6    
+                },
+                {
+                    "type" : "pit",
+                    "row" : 5,
+                    "column": 6    
+                },
+                {
+                    "type" : "pit",
+                    "row" : 4,
+                    "column": 6    
+                },
+                {
+                    "type" : "ramp",
+                    "row" : 3,
+                    "column": 7    
+                },
+                {
+                    "type" : "ramp",
+                    "row" : 6,
+                    "column": 7    
+                },
+                {
+                    "type" : "lootChest",
+                    "row" : 3,
+                    "column": 3    
+                },
+                {
+                    "type" : "door",
+                    "row" : 7,
+                    "column": 4,
+                    "switchRow": 4,
+                    "switchColumn": 7,
+                    "isOpen": false    
+                },
+                {
+                    "type" : "portal",
+                    "row" : 2,
+                    "column": 1,
+                    "destinationRow": 8,
+                    "destinationColumn": 7    
+                },
+                {
+                    "type" : "portal",
+                    "row" : 8,
+                    "column": 7,
+                    "destinationRow": 2,
+                    "destinationColumn": 1    
+                },
+                {
+                    "type" : "portal",
+                    "row" : 2,
+                    "column": 8,
+                    "destinationRow": 5,
+                    "destinationColumn": 5    
+                },
+                {
+                    "type" : "portal",
+                    "row" : 5,
+                    "column": 5,
+                    "destinationRow": 2,
+                    "destinationColumn": 8    
+                },
+                {
+                    "type" : "levelChanger",
+                    "row" : 7,
+                    "column": 1
+                }
+            ],
+
+            "characters": [
+                {
+                    "type" : "static",
+                    "row" : 2,
+                    "column": 2,
+                    "stamina": 10,
+                    "strength": 10,
+                    "hitpoints": 70
+                },
+                {
+                    "type" : "dynamic",
+                    "row" : 5,
+                    "column": 1,
+                    "stamina": 10,
+                    "strength": 10,
+                    "hitpoints": 70,
+                    "currentIndex": 0,
+                    "path": "xxxxwww"
+                },
+                {
+                    "type" : "attack",
+                    "row" : 1,
+                    "column": 8,
+                    "stamina": 5,
+                    "strength": 10,
+                    "hitpoints": 45
+                },
+                {
+                    "type" : "attack",
+                    "row" : 7,
+                    "column": 2,
+                    "stamina": 5,
+                    "strength": 10,
+                    "hitpoints": 45
+                }
+            ]
+        }, 
+        {
+            "rows": 9,
+            "columns": 9,
+            "spawnRow": 1,
+            "spawnColumn": 4,
+            "specialTiles": [
+                {
+                    "type" : "portal",
+                    "row" : 1,
+                    "column": 3,
+                    "destinationRow": 6,
+                    "destinationColumn": 1    
+                },
+                {
+                    "type" : "portal",
+                    "row" : 6,
+                    "column": 1,
+                    "destinationRow": 1,
+                    "destinationColumn": 3    
+                },
+                {
+                    "type" : "levelChanger",
+                    "row" : 5,
+                    "column": 7
+                },                 {
+                    "type" : "pit",
+                    "row" : 3,
+                    "column": 2    
+                },
+                {
+                    "type" : "pit",
+                    "row" : 3,
+                    "column": 3    
+                },
+                {
+                    "type" : "pit",
+                    "row" : 3,
+                    "column": 4    
+                },
+                {
+                    "type" : "pit",
+                    "row" : 4,
+                    "column": 2    
+                },
+                {
+                    "type" : "pit",
+                    "row" : 4,
+                    "column": 3    
+                },
+                {
+                    "type" : "pit",
+                    "row" : 4,
+                    "column": 4    
+                },
+                {
+                    "type" : "ramp",
+                    "row" : 2,
+                    "column": 3    
+                },
+                {
+                    "type" : "wall",
+                    "row" : 5,
+                    "column": 1    
+                },
+                {
+                    "type" : "wall",
+                    "row" : 5,
+                    "column": 2    
+                },
+                {
+                    "type" : "wall",
+                    "row" : 5,
+                    "column": 3    
+                },
+                {
+                    "type" : "wall",
+                    "row" : 5,
+                    "column": 4    
+                },
+                {
+                    "type" : "wall",
+                    "row" : 5,
+                    "column": 6    
+                },
+                {
+                    "type" : "wall",
+                    "row" : 4,
+                    "column": 6    
+                },
+                {
+                    "type" : "wall",
+                    "row" : 4,
+                    "column": 7    
+                },
+                {
+                    "type" : "door",
+                    "row" : 5,
+                    "column": 5,
+                    "switchRow": 7,
+                    "switchColumn": 4,
+                    "isOpen": false    
+                }
+
+            ], 
+            "characters": [
+                {
+                    "type" : "dynamic",
+                    "row" : 2,
+                    "column": 7,
+                    "stamina": 10,
+                    "strength": 10,
+                    "hitpoints": 70,
+                    "currentIndex": 0,
+                    "path": "wasd"
+                },
+                {
+                    "type" : "static",
+                    "row" : 6,
+                    "column": 3,
+                    "stamina": 10,
+                    "strength": 10,
+                    "hitpoints": 70
+                },
+
+                {
+                    "type" : "attack",
+                    "row" : 7,
+                    "column": 7,
+                    "stamina": 5,
+                    "strength": 10,
+                    "hitpoints": 45
+                }
+            ]
+        }
+    ]
+}
